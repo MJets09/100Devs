@@ -1,0 +1,43 @@
+* {
+    margin: auto;
+}
+
+
+/* Element */
+
+header {
+    display: flex;
+}
+
+button {
+    width: 100px;
+    height: 20px;
+}
+
+ul,
+li {
+    display: flex;
+}
+
+
+/* ID */
+
+#main {
+    display: flex;
+}
+
+#mainC {
+    display: inline-flex;
+}
+
+
+/*CSS*/
+
+.sImage {
+    height: 200px;
+    width: 200px;
+}
+
+.cards {
+    padding: 10px 10px 10px 0px;
+}
