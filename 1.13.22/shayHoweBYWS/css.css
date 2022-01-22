@@ -130,3 +130,33 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+.primary-footer {
+    padding-bottom: 44px;
+    padding-top: 44px;
+}
+
+small {
+    float: left;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    clear: both;
+    *zoom: 1;
+}
+
+.logo {
+    float: left;
+    border-top: 5px solid black;
+    padding: 40px 0 22px 0;
+}

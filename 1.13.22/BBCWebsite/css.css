@@ -7,6 +7,8 @@
 
 header {
     display: flex;
+    background-color: black;
+    color: white;
 }
 
 button {
@@ -17,13 +19,14 @@ button {
 ul,
 li {
     display: flex;
+    padding: 5px;
 }
 
 
 /* ID */
 
 #main {
-    display: flex;
+    display: inline-flex;
 }
 
 #mainC {
