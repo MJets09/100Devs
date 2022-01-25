@@ -1,5 +1,8 @@
 * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
+    margin: auto;
 }
 
 body {
@@ -40,6 +43,7 @@ p {
     margin-left: 50px;
     color: white;
     clear: left;
+    margin-bottom: 20px;
 }
 
 li:last-of-type {
@@ -47,7 +51,7 @@ li:last-of-type {
 }
 
 section {
-    max-width: 1200px;
+    max-width: 980px;
 }
 
 span {
@@ -56,6 +60,6 @@ span {
     margin-right: 5px;
 }
 
-section img h2 {
-    color: red;
+footer {
+    margin: 50px;
 }
