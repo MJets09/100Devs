@@ -78,3 +78,11 @@ footer {
     height: 200px;
     background-color: black;
 }
+
+@media screen and (max-width: 900px) {
+    .layoutOne,
+    .layoutTwo,
+    .layoutThree {
+        border: 5px solid rebeccapurple;
+    }
+}
