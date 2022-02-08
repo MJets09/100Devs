@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Yeezy;
+    src: url(../../yeezy_tstar-regular-webfont.ttf);
+}
+
+
+/* Box Model Hack */
+
+* {
+    box-sizing: border-box;
+    margin: auto;
+    font-family: Yeezy;
+}
+
+
+/* Clear fix hack */
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+.top {
+    background-color: #66768a;
+}
+
+div main+p {
+    text-align: center;
+    color: white;
+}
+
+p>span {
+    text-align: center;
+}
+
+video+p {
+    text-align: center;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.mid {
+    text-align: center;
+    max-width: 600px;
+    padding: 10% 0 10% 0;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+.last {
+    background-color: #dbdfe2;
+    padding: 50px;
+    clear: both;
+    height: 400px;
+}
+
+.last section {
+    float: left;
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.last section p {
+    max-width: 600px;
+}
+
+.volunteer {
+    text-align: center;
+    clear: both;
+    max-width: 600px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+header {
+    padding: 20px;
+}
+
+header nav>* {
+    float: left;
+    width: 20%;
+    list-style: none;
+    color: white;
+}
+
+header nav li {
+    float: left;
+    width: 33%;
+}
+
+header nav+img {
+    margin-left: 28%;
+}
+
+main {
+    text-align: center;
+    color: white;
+    max-width: 600px;
+    padding: 5% 0 5% 0;
+}
+
+img+button {
+    float: right;
+}
+
+video {
+    position: relative;
+    left: 40%;
+}
+
+section img {
+    width: 40%;
+    height: 40%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

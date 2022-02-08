@@ -79,10 +79,41 @@ footer {
     background-color: black;
 }
 
-@media screen and (max-width: 900px) {
-    .layoutOne,
-    .layoutTwo,
-    .layoutThree {
-        border: 5px solid rebeccapurple;
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+@media screen and (max-width: 400px) {
+    .layoutOne {
+        max-width: 350px;
+        margin-top: 50px;
+    }
+    .rowOne {
+        width: 50%;
+    }
+    .rowOneGone {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    .layoutOne {
+        max-width: 1000px;
+        margin: 50px 50px 0 50px;
+    }
+    .rowOne {
+        width: 50%;
+    }
+    .rowOneGone {
+        display: none;
     }
 }
