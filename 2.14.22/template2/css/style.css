@@ -1,0 +1,84 @@
+    @font-face {
+        font-family: Yeezy;
+        src: url(../../yeezy_tstar-regular-webfont.ttf);
+    }
+    /* Box Model Hack */
+    
+    * {
+        box-sizing: border-box;
+        margin: auto;
+        font-family: Yeezy;
+        color: #495d6f;
+    }
+    /* Clear fix hack */
+    
+    .clearfix:after {
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+    }
+    
+    .clear {
+        clear: both;
+    }
+    /******************************************
+/* BASE STYLES
+/*******************************************/
+    
+    header {
+        background-color: #f5f9fc;
+        overflow: auto;
+    }
+    
+    button {
+        background-color: #324658;
+        color: white;
+    }
+    /******************************************
+/* Layouts
+/*******************************************/
+    
+    header * {
+        float: left;
+    }
+    
+    nav {
+        width: 100%;
+        padding-top: 20px;
+    }
+    
+    nav ul {
+        float: left;
+        width: 50%;
+    }
+    
+    nav h2 {
+        width: 33%;
+        margin-left: 20px;
+    }
+    
+    ul li {
+        float: left;
+        list-style: none;
+        display: inline;
+    }
+    
+    li a {
+        float: left;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+    
+    main {
+        max-width: 900px;
+        border: 2px solid black;
+        overflow: hidden;
+    }
+    
+    main section {
+        float: left;
+        width: 50%;
+    }
