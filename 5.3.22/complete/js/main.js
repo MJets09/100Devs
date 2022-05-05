@@ -14,8 +14,8 @@ class Animal {
     }
 }
 class Dog extends Animal {
-    constructor(name, breed, spotted) {
-        super(name)
+    constructor(name, breed) {
+        super(name, breed)
 
     }
     speak() {
@@ -33,7 +33,6 @@ class Cat extends Animal {
         console.log(`${this.name} meows`)
     }
 }
-
 
 
 
